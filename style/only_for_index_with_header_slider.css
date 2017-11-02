@@ -1,0 +1,21 @@
+.navbar {
+    z-index: 10;
+    width: 100%;
+    background: transparent;
+    border-color: transparent;
+    position: absolute;
+}
+.navbar .container-fluid {
+	background: transparent;
+    border-color: transparent;
+}
+#home-slider {
+	position: relative;
+	z-index: 9;
+}
+#slide1 {
+	padding: 9% 0% 7% 0%;
+}
+#main-menu .navbar-nav>li>a {
+	border-color: transparent;
+}

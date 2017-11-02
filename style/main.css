@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  background-color:#ccd3d7;
+  font-family: "PFDinTextCondPro";
+  margin: 0 auto;
+}
+.category h3 {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  height: auto;
+  padding: 10px;
+  background-color: #ffeb00;
+}
+.category {
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+ position: relative;
+ top: -76px;
+}
+.category h4 {
+    font-weight: 500;
+    padding: 5px;
+    position: absolute;
+    background-color: #ffeb00;
+
+}
+.sec2Inf p{
+  font-weight: 500;
+}
+.section_1{
+  margin-top: 141px;;
+}
+.box{
+  background: #c3cace;
+  min-height: 250px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+
+.pdl {
+    background: #c3cace;
+    border-right: 10px solid #ccd3d7;
+    border-bottom: 8px solid #ccd3d7;
+    box-sizing: border-box;
+}
+.pdr {
+    background: #c3cace;
+    border-left: 10px solid #ccd3d7;
+    border-bottom: 8px solid #ccd3d7;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px){
+  .pdl {
+    background: #c3cace;
+    border-right: 10px solid #ccd3d7;
+    border-left: 10px solid #ccd3d7;
+    border-bottom: 8px solid #ccd3d7;
+    box-sizing: border-box;
+  }
+  .pdr {
+    background: #c3cace;
+    border-right: 10px solid #ccd3d7;
+    border-left: 10px solid #ccd3d7;
+    border-bottom: 8px solid #ccd3d7;
+    box-sizing: border-box;
+  }
+  .potreblenie{
+     padding-top: 150px;
+  }
+  .potreblenie .category {
+     top: -140px;
+  }
+  .potreblenie .cat-info .img-wrap h5 {
+      font-size: 10px;
+  }
+}
+
+.cat-info .img-wrap{
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.img-sec2{
+  position: relative;
+  height: 80px;
+}
+
+@media screen and (max-width: 1000px){
+  .img-sec2{
+      /*border-bottom: 1px solid;*/
+  }
+}
+
+/*график*/
+.img-sec2 .chart{
+    position: absolute;
+    width: 30px;
+    background: #ecde39;
+    bottom: 0px;
+    left: calc((100% - 30px)/2);
+}
+.chrt-1 .chart{
+    height: 10px;
+}
+.chrt-2 .chart{
+    height: 25px;
+}
+.chrt-3 .chart{
+    height: 60px;
+}
+.chrt-4 .chart{
+    height: 130px;
+}
+
+@media screen and (max-width: 1000px){
+  .chrt-3{
+      margin-bottom: 80px;
+  }
+}
+/*конец графика*/
+
+
+.sun {
+  padding: 4px 0;
+}
+
+.cat-info {
+  position: relative;
+}
+
+.line{
+    position: absolute;
+    background: #7b7777;
+    top: 76px;
+    left: 100px;
+    width: 63%;
+    height: 1px;
+}
+.lineTwo{
+    position: absolute;
+    height: 1px;
+    width: 89%;
+    left: 39px;
+    top: 80px;
+    background: #8c8484;
+}
+@media screen and (max-width: 1000px){
+  .lineTwo{
+      /*display: none;*/
+      left: 17px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .line{
+    /*display: none;*/
+    top: 76px;
+    left: 63px;
+    width: 67%;
+    height: 1px;
+  }
+  .divider{
+    /*border-bottom: 1px solid #b1a9a9;*/
+    /*margin-bottom: 10px;*/
+  }
+}
+
+
+
+
+.description{
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+   position: relative;
+}
+
+.description h4 {
+    padding: 5px;
+    position: absolute;
+    background-color: #ffeb00;
+}
+
+@media screen and (max-width: 600px){
+  .preim h4{
+      padding: 2px;
+      margin-top: 0;
+  }
+}
+
+/*secTwo*/
+.sec2Inf div {
+  min-height: 60px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.box-sec-after{
+  background: #c3cace;
+  min-height: 190px;
+  margin-bottom: 20px;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+
+.description .descTitle{
+    position: relative;
+    min-height: 49px;
+}
+.companyDescTitle {
+    position: relative;
+    min-height: 49px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+.companyDescTitle h4{
+  font-size: 24px;
+}
+
+
+/*************************************Booklet.php**************************/
+.customTable table {
+    font-family:PFDinTextCondPro;
+    border-collapse: collapse;
+    width: 100%;
+}
+.customTable tr {
+  font-size: 18px;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 5px solid #ccd3d7;
+    text-align: left;
+    padding: 8px;
+}
+.row_table{
+    background-color: #ffeb00;
+}
+
+tr:nth-child(even) {
+    /*background-color: #ffeb00;*/
+}
+/*ASARa*/
+.titleCompany h1, .title-booklet{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.title-booklet
+}
+.title{
+     position: relative;
+     top: 40px;
+}
+.title h1, .title h3{
+    background-color: #ffeb00;
+    padding:  5px;
+    position: absolute;
+    margin-top: 25px;
+}
+.title h3{
+    top:165px;
+}
+.mt-150{
+  margin-top: 180px;
+}
+@media screen and (max-width: 700px){
+    .title{
+         position: relative;
+    }
+    .title h1, .title h3{
+        background-color: #ffeb00;
+        padding:  5px;
+        position: absolute;
+    }
+    .title h3{
+        top: 110px;
+    }
+    .mt-150{
+      margin-top: 200px;
+    }
+    .section_1{
+        margin-top: 220px;
+    }
+}
+/**************************************control)system******************************************/
+.img_box img {
+  width: 100%;
+}
+  .descriptionCompany a{
+    display: inline !important;
+    text-decoration: underline !important;
+}
+.clickable-row{
+cursor:pointer;
+}
+.active_menu{
+background-color: #868b91!important;
+border-top: 5px solid #ffeb00!important;
+
+}
+@media only screen and (min-width: 940px) {
+  .category h4 {font-size: 20px;}
+  .sec2Inf p{font-size: 15pt;}
+  .description p { font-size: 18px;}
+  .description h4 { font-size: 24px;}
+ }
